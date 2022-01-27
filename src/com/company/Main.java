@@ -10,5 +10,11 @@ public class Main {
 
         System.out.println(car.color);
 
+        car.color ="green";
+        car.number ="789";
+        car.engine = "4545454cc";
+        car.door = "3";
+
+        System.out.println(car.color);
     }
 }
